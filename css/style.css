@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@900&family=Montserrat&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', san sarif;
+}
+.text-warning{
+	color: #d69237! important;
+}
+
+
+
+.btn{
+	border-radius: 27px;
+
+}
+
+
+
+
+.fw-bold{
+	color: black;
+}
+
+
+
+.banner {
+	
+	background: linear-gradient(rgba(87, 101, 116,1.0), rgba(255, 0, 0, .5)), url(../images/banner.jpg);
+	height: 800px;
+	width: 100%; 
+ background-size: cover;
+  object-position:center;
+  background-repeat: no-repeat;
+  padding: 10px; 
+
+  }
+
+  .blockquote{
+  	display: block;
+  	position: relative;
+  	font-size: ;
+  	font-family: ;
+
+  }
+  .box1 .blockquote::before{
+	content: "\201C";
+	font-size: 3em;
+	font-family: sans-serif;
+	top: -8px;
+	left: 15px;
+	}
+
+   .box1 .blockquote::after {
+  	content: "\201d";
+	font-size: 3em;
+	font-family: sans-serif;
+  	bottom:-17px;
+  	right: 23px;
+  	
+  }
+
+  .box1 .blockquote::before,
+  .box1 .blockquote::after{
+  	font-size: 35px;
+  	position: absolute;
+  }
+
+  .box2 .blockquote::before{
+	content: "\201C";
+	font-size: 3em;
+	font-family: sans-serif;
+	top: -8px;
+	left: -10px;
+	}
+
+   .box2 .blockquote::after {
+  	content: "\201d";
+  	font-size: 3em;
+  	font-family: sans-serif;
+  	bottom:-17px;
+  	right: 89px;
+  }
+
+  .box2 .blockquote::before,
+  .box2 .blockquote::after{
+  	font-size: 35px;
+  	position: absolute;
+  }
+  
+
+.box3 .blockquote::before{
+	content: "\201C";
+	font-size: 3em;
+	font-family: sans-serif;
+	top: -8px;
+	left: 9px;
+	}
+
+   .box3 .blockquote::after {
+  	content: "\201d";
+  	font-size: 3em;
+  	font-family: sans-serif;
+  	bottom:-17px;
+  	right: 10px;
+  }
+
+  .box3 .blockquote::before,
+  .box3 .blockquote::after{
+  	font-size: 35px;
+  	position: absolute;
+  }
+
+  .box4 .blockquote::before{
+	content: "\201C";
+	font-size: 3em;
+	font-family: sans-serif;
+	top: -8px;
+	left: -14px;
+	}
+
+   .box4 .blockquote::after {
+  	content: "\201d";
+  	font-size: 3em;
+  	font-family: sans-serif;
+  	bottom:-17px;
+  	right: -12px;
+  }
+
+  .box4 .blockquote::before,
+  .box4 .blockquote::after{
+  	font-size: 35px;
+  	position: absolute;
+  }
+	
+.Features.py-4 {
+    background: url(../images/feature.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    object-position:center;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.Happyhours.py-4 {
+    background: url(../images/happyhours.jpg);
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    object-position:center;
+    background-repeat: no-repeat;
+    padding: 10px;
+   
+    }
+
+    .ending{
+    	background: url(../images/footer.jpg);
+    	height: 900px;
+    	width: 100%; 
+    	background-size: cover;
+    	object-position:bottom;
+    	background-repeat: no-repeat;
+    }
+	
+	
+	.media li{
+		list-style: none;
+		margin: 10px 20px;
+		display: inline-block;
+		font-size: 20px;
+		padding:20px 20px;
+		color: #fff;
+		border: 1px dotted #fff;
+		border-radius: 50%;
+		transition: .5s;
+
+	}
+	li :hover{
+		color: #292929;}
+
+	
+	
